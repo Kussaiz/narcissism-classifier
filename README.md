@@ -20,7 +20,7 @@ The models are trained and evaluated on preprocessed text labeled as narcissisti
 | `mlwp_project.ipynb` | Classical ML models (LogReg, RF, AdaBoost) |
 | `mlwp_lstm.ipynb` | Deep learning model with BiLSTM |
 | `reddit.csv` | Input datasets |
-| `plots/` | Visualization outputs (e.g., histograms, accuracy plots) |
+| `plots/` | Visualization outputs (e.g., class, text length histograms) |
 
 ## Psychology Background
 
