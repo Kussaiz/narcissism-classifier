@@ -11,7 +11,7 @@ Multiple classification models were explored to identify patterns of narcissism 
 - AdaBoost Classifier  
 - BiLSTM (Bidirectional Long Short-Term Memory)
 
-The models are trained and evaluated on preprocessed text labeled as narcissistic (1) or not (0), using features such as text length, TF-IDF vectors, and embedded sequences.
+The models are trained and evaluated on preprocessed text labeled as narcissistic (1) or not (0) (other disorders, such as depression and borderline personality disorder), using features such as text length, TF-IDF vectors, and embedded sequences. The dataset was customly collected for the project from Reddit using the following subreddits: narcissism, depression, BPD.
 
 ## Files
 
@@ -36,9 +36,10 @@ These concepts influenced how features were selected and interpreted.
 - **Evaluation Metrics**: Accuracy, F1 score, confusion matrix
 - **Visualization**: Text length distribution, KDE plots
 
-## Example Plot
+## Plots
 
 ![Text Length Distribution](plots/length_distribution.png)
+![Text Length Distribution](plots/class_distribution.png)
 
 **Python version**: 3.7+
 ## Key packages**:
